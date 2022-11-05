@@ -11,7 +11,7 @@ on:
       arch:
         description: "Build arch"
         required: true
-        default: "x64 & arm64"
+        default: "arm64"
         type: choice
         options:
         - x64
